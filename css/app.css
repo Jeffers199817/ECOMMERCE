@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+
+}
+
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+
+
+
+h1{
+    font-size: 20px;
+    color: #000
+    
+}
+
+h1 span{
+   color: #037bc0;
+}
+
+
+a{
+    text-transform: uppercase;
+}
+a{
+    text-transform: lowercase;
+}
+
+.navegacion{
+
+}
+
+.enlace{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #037bc0;
+}
+.color-rojo{
+    color:red;
+}
+
+/** Diferentes Estilos para escribir codigo css
+Modulos, BEM, SMACSS **/
+
+
+/** BOX MODEL **/
+
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+ 
+
+}
+
+.sobre-empresa{
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
+ 
+
+
+}
